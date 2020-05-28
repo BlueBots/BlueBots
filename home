@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>BlueBoy Custom Discord Bots</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="icon" href="https://esportsone.com/wp-content/uploads/2019/08/one_bot_icon.png" style="border-radius: 50%;" type="image/x-icon">
+    <meta property="og:site_name" content="BlueBoy Custom Discord Bots" />
+  <meta
+    property="og:description"
+    content="Have you ever wanted custom commands on a bot, or just want your own custom bot for your server? Just visit our website! Custom bots for very cheap prices! Hosting included in some packages."
+  />
+  <meta
+    property="og:image"
+    content="https://esportsone.com/wp-content/uploads/2019/08/one_bot_icon.png"
+  />
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  min-height: 100%;
+/*   background-position: center;
+  background-size: cover; */
+}
+</style>
+<body>
+<div class="bi" style="position:absolute; height:100vw; width:100vw;  background-image: url('https://blueboy-is-a.questionable.link/ASNT7q.png'); max-height: 100%; background-position: center; background-size: cover; filter: brightness(30%); filter: blur(4px); ">
+  
+  </div>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <img src="https://cdn.glitch.com/60db24a6-5b82-4ebb-bf54-e465d0990245%2FBlueboy.gif?v=1590695097919" style="margin-top:25px; height: 30px; border-radius: 50%; margin-right:15px; position:absolute;"><p style="margin-left:43px; ">BlueBoy#2292 on discord</p>
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">Site Under Development</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Buy bots for cheap prices!</p>
+  </div>
+<!--   <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div> -->
+</div>
+
+</body>
+</html>
