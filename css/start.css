@@ -68,18 +68,18 @@
     transition: all 0.2s ease-in;
   }
   
-  /* ::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 13px;
   }
   ::-webkit-scrollbar:hover {
     width: 18px;
   }
   ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.1);
   }
   
   ::-webkit-scrollbar-thumb {
-    background: rgba(64, 64, 66, 0);
+    background: rgba(64, 64, 66, 0.2);
   }
   
   ::-webkit-scrollbar-thumb:hover {
@@ -88,7 +88,7 @@
   }
   ::-webkit-scrollbar-corner {
     background: rgba(0, 0, 0, 0);
-  } */
+  }
   .beg-black{
     background-color: white;
     width: 100vw;
