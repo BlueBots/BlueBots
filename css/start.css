@@ -158,7 +158,7 @@ position: absolute;
     color: #fff;
     margin-left:200px;
     text-decoration: none;
-animation:  nudge 5s linear 2 alternate;
+/* animation:  nudge 5s linear 2 alternate; */
   }
   .sticky {
     position: fixed;
