@@ -16,6 +16,7 @@
   rel="stylesheet"
   type="text/css"
 />
+<link rel="icon" href="https://esportsone.com/wp-content/uploads/2019/08/one_bot_icon.png" style="border-radius: 50%;" type="image/x-icon">
 <script src="https://shoppy.gg/api/embed.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
@@ -71,12 +72,71 @@ $(document).ready(function(){
   </div>
 </section>
 
-<section id="buy" style="background-color: #f5f8fd; padding: 30px 0; margin-top:0vw; width:100vw;">
-  <div class="container" style="margin-bottom:30px;">
+<section id="buy" style="background-color: #f5f8fd; padding: 30px 0; margin-top:0vw; width:100vw; position:absolute">
+  <div class="container" style="margin-bottom:30px">
 <center><h2 class="buy-title">Buy a Bot</h2>
-<p class="buy-info">To complete a purhcase you need to have a paypal account.<br/>This payment is safe, it is going through shoppy.gg<br/>Use code First10 in checkout for $2.00 off! First 10 users only!</p>
+<p class="buy-info" style="margin-bottom: 5px;">To complete a purhcase you need to have a paypal account.<br/>This payment is safe, it is going through shoppy.gg<br/>Use code First10 in checkout for $2.00 off! First 10 users only!</p>
+</center>
+<div style="height: 100%; width:100%; background-color:black;">
+<div class="card free">
+  <!-- <div class="in-stock"><img src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/circle-check-512.png" height="50"><p>In Stock</p></div> -->
+  <div id="stock" style="width:100%; background-color:white;"><img src="https://lh3.googleusercontent.com/proxy/J1P1_KI1AR_K-jx4Pwigd5RjDS4xwJKuG0QIXNWTHU3Vyq_z1zN_84tkN_o7vOKV2jMm6hpSa9iS31LgjBQnQjMpUkzvzxB2FNcMT_qnRDnC-qH4rR84kzcCPUHaA1JRdcM" height="50"><p id="lgh">Out Of Stock</p></div>
+  <div class="card-header">
+<h3><span class="ds"></span>FREE</h3>
+</div>
+<div class="card-block">
+  <h4 class="card-title">
+Free Test Bot
+  </h4>
+  <ul class="list-group">
+<li class="list-group-item">Discord bot with normal commands</li>
+<li class="list-group-item">Can not customize name</li>
+<li class="list-group-item">No custom commands</li>
+<li class="list-group-item">No support</li>
+<li class="list-group-item" id="out">12 hour free trial, before the bot leaves the server</li>
+
+
+  </ul>
+</div>
+<script type="text/javascript">
+function out(){
+  document.getElementById("lgh").style.color="red";
+  // document.getElementById("stock").style.backgroundColor="rgba(0,10,255,0.5)";
+  setTimeout(function(){
+    document.getElementById("lgh").style.color="black";
+  }, 1700)
+  setTimeout(function(){
+    document.getElementById("stock").style.backgroundColor="rgba(0,10,255,0.1)";
+  }, 100)
+  setTimeout(function(){
+    document.getElementById("stock").style.backgroundColor="rgba(0,10,255,0.2)";
+  }, 200)
+  setTimeout(function(){
+    document.getElementById("stock").style.backgroundColor="rgba(0,10,255,0.3)";
+  }, 300)
+  setTimeout(function(){
+    document.getElementById("stock").style.backgroundColor="rgba(0,10,255,0.4)";
+  }, 400)
+  setTimeout(function(){
+    document.getElementById("stock").style.backgroundColor="rgba(0,10,255,0.3)";
+  }, 500)
+  setTimeout(function(){
+    document.getElementById("stock").style.backgroundColor="rgba(0,10,255,0.1)";
+  }, 600)
+  setTimeout(function(){
+    document.getElementById("stock").style.backgroundColor="rgba(0,10,255,0)";
+  }, 700)
+}
+</script>
+<div style="width:100%; color: black; height:100%; cursor: pointer; text-decoration: none;" onClick="out()">
+  <p class="pti">Try It Now</p>
+</div>
+
+  
+</div>
+
 <div class="card reg">
-  <div class="stock"><img src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/circle-check-512.png" height="50"><p>In Stock</p></div>
+  <div class="in-stock"><img src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/circle-check-512.png" height="50"><p>In Stock</p></div>
 <div class="card-header">
 <h3><span class="ds">$</span>5</h3>
 </div>
@@ -101,7 +161,17 @@ Regular bot
 
   
 </div>
-</center>
+
+
+
+
+
+
+
+
+
+</div>
+
   </div>
 </section>
 
