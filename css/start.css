@@ -19,7 +19,7 @@
     scroll-behavior: smooth;
   }
   body {
-   
+    background-image: linear-gradient(180deg,#a4d2e7 70%,white 100%); 
   
     position: absolute;
     margin: 0;
@@ -395,4 +395,17 @@ ul {
 }
 #stock{
   background-color: white;
+}
+@keyframes forohf4{
+  0%{
+  }
+  50%{
+    /* opacity: 0.5;
+    transform: rotateX(0deg); */
+  }
+  100%{
+    display: none;
+    opacity: 0;
+    transform: rotateX(90deg);
+  }
 }
