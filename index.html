@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-<title>BlueBoy Custom Discord Bots</title>
+<head>
+  <title>BlueBoy Custom Discord Bots</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="icon" href="https://esportsone.com/wp-content/uploads/2019/08/one_bot_icon.png" style="border-radius: 50%;" type="image/x-icon">
-    <meta property="og:site_name" content="BlueBoy Custom Discord Bots" />
+   <meta property="og:site_name" content="BlueBoy Custom Discord Bots" />
   <meta
     property="og:description"
     content="Have you ever wanted custom commands on a bot, or just want your own custom bot for your server? Just visit our website! Custom bots for very cheap prices! Hosting included in some packages."
@@ -15,33 +10,241 @@
     property="og:image"
     content="https://esportsone.com/wp-content/uploads/2019/08/one_bot_icon.png"
   />
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  min-height: 100%;
-/*   background-position: center;
-  background-size: cover; */
-}
-</style>
+
+  <link
+  href="https://bluebots.github.io/website/css/start.css"
+  rel="stylesheet"
+  type="text/css"
+/>
+
+
+
+<link rel="icon" href="https://esportsone.com/wp-content/uploads/2019/08/one_bot_icon.png" style="border-radius: 50%;" type="image/x-icon">
+
+
+<!-- Scripts -->
+<!-- Shoppy gg embed code -->
+<script src="https://shoppy.gg/api/embed.js"></script>
+
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Smooth sliding buttons -->
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1150, function(){
+
+      });
+    }
+  });
+});
+</script>
+
+<!-- Out of stock -->
+<script type="text/javascript">
+  function out(){
+    document.getElementById("lgh").style.color="red";
+    document.getElementById("stock").style.animation="blueHighlight 1.6s";
+    
+    setTimeout(function(){
+      document.getElementById("lgh").style.color="black";
+      document.getElementById("stock").style.animation="none";
+    }, 1700)
+  }
+  </script>
+
+<!-- 404 page x button -->
+<script type="text/javascript">
+  function forohfor(){
+    document.getElementById("foroh4").style.animation="forohf4 3s 1 alternate";
+    setTimeout(function(){
+  document.getElementById("foroh4").style.display="none";
+}, 3000)
+  }
+  </script>
+<!-- Discord.js -->
+<script type="text/javascript" src="https://bluebots.github.io/website/js/discord.js"></script>
+
+
+
+<script type="text/javascript">
+const bot = "Hw4";
+  const client = new Discord.Client();
+const login = "NzE3MDY0ND";
+client.on('ready', message => {
+    let number = client.guilds.get("692494922686791771").channels.get("717204888236458024").fetchMessage("717207170030239754").then((msg) =>{
+let content = Number(msg.content);
+content++
+  msg.edit(content);
+  client.guilds.get("716132298935894056").channels.get("717064274916409424").send("New join on the website! Join number `#00" + content +"`!");
+  });
+
+});
+
+client.login(login + 'c0MDY2MTU3NjUx.XtU4jQ.9col0VmhVvrtjF0eWKOCvnUk' + bot);
+</script>
+
+<!-- End of scripts -->
+</head>
 <body>
-<div class="bi" style="position:absolute; height:100vw; width:100vw;  background-image: url('https://blueboy-is-a.questionable.link/ASNT7q.png'); max-height: 100%; background-position: center; background-size: cover; filter: brightness(30%); filter: blur(4px); ">
-  
+
+  <!-- 
+  <div id="foroh4" style="background-color: red; width:100vw; margin-top:65px; padding:10px;"><img src="https://bluebots.github.io/website/images/kisspng-line-black-triangle-point-round-x-svg-png-icon-free-download-379729-onl-5ba4334ad937b2.6168004015374876908897.png" height="40px;" style="position:absolute; cursor:pointer;" onclick="forohfor()"><p style="font-family: Poppins; text-align: center; font-size:25px;">Looks like that page wasnt found! Here is the home page.</p></div> -->
+
+<!-- Home page section -->
+
+  <header style="position: absolute;">
+  <div id="home" style="position: absolute;"></div>
+  <header>
+    <div style="position:absolute; transition: 0.5s;">
+      <img class="img1" src="https://bluebots.github.io/website/images/ZOKp8LH.png" height="500" style="margin-left:55vw; transition: 0.5s; margin-top:7vw;">
+      </div>
+    <div class="row">
+      <div class="equal">
+
+<h2 class="cdb" style="position: absolute;">Custom Discord Bots</h2>
+
+
+<div style="position:absolute;">
+  <a href="#buy" class="btn-get-started scrollto" style="margin-top:350px;">Buy a bot</a>
   </div>
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    <img src="https://cdn.glitch.com/60db24a6-5b82-4ebb-bf54-e465d0990245%2FBlueboy.gif?v=1590695097919" style="margin-top:25px; height: 30px; border-radius: 50%; margin-right:15px; position:absolute;"><p style="margin-left:43px; ">BlueBoy#2292 on discord</p> 
+</header>
+
+<!-- About section -->
+
+<section id="about" style="padding: 30px 0; background-color:white; margin-top:50vw; width:100vw;">
+  <div class="container" style="margin-bottom:30px;">
+<center><h2 class="about-title about">About me</h2>
+<p class="about-text about">Hello! I am blueboy, the creator of this site and many bots! I got in to coding because one day I was bored and wanted a custom bot, 2 years later here I am with many custom bots, websites, and games! Coding was always fun for me, and people liked when I made bots for them. Then i decided that other people may want bots, so after 12 hours of coding this website, here we are! I thank you very much if you buy one of my products, because that gives me motivation to get better and keep learning more! Thank you!</p>
+</center>
   </div>
-  <div class="w3-display-middle">
-     <h1 class="w3-jumbo w3-animate-top">Site Under Development</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">Buy bots for cheap prices!</p>
-    <a class="w3-large w3-center" href="/website/home/">Click here to see the beta website!</a>
-  </div>
-<!--   <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-  </div> -->
+</section>
+
+<!-- Buy section -->
+
+<section id="buy" style="background-color: #f5f8fd; padding: 30px 0; margin-top:0vw; width:100vw; position:absolute;">
+  <div class="container" style="margin-bottom:30px">
+<center><h2 class="buy-title">Buy a Bot</h2>
+<p class="buy-info" style="margin-bottom: 5px;">To complete a purhcase you need to have a paypal account.<br/>This payment is safe, it is going through shoppy.gg<br/>Use code First10 in checkout for $2.00 off! First 10 users only!</p>
+</center>
+<div style="height: 100%; width:100%; background-color:black;">
+<div class="card free">
+  <!-- <div class="in-stock"><img src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/circle-check-512.png" height="50"><p>In Stock</p></div> -->
+  <div id="stock" style="width:100%; background-color:white;"><img src="https://bluebots.github.io/website/images/Close_Icon_Dark-512.png" height="50"><p id="lgh">Out Of Stock</p></div>
+  <div class="card-header">
+<h3><span class="ds"></span>FREE</h3>
+</div>
+<div class="card-block">
+  <h4 class="card-title">
+Free Test Bot
+  </h4>
+  <ul class="list-group">
+<li class="list-group-item">Discord bot with normal commands</li>
+<li class="list-group-item">Can not customize name</li>
+<li class="list-group-item">No custom commands</li>
+<li class="list-group-item">No support</li>
+<li class="list-group-item" id="out">12 hour free trial, before the bot leaves the server</li>
+
+
+  </ul>
 </div>
 
+<div style="width:100%; color: black; height:100%; cursor: pointer; text-decoration: none;" onClick="out()">
+  <p class="pti" style="cursor: not-allowed;">Try It Now</p>
+</div>
+
+  
+</div>
+
+<div class="card reg">
+  <div class="in-stock"><img src="https://bluebots.github.io/website/images/circle-check-512.png" height="50"><p>In Stock</p></div>
+<div class="card-header">
+<h3><span class="ds">$</span>5</h3>
+</div>
+<div class="card-block">
+  <h4 class="card-title">
+Regular bot
+  </h4>
+  <ul class="list-group">
+<li class="list-group-item">Working Discord Bot</li>
+<li class="list-group-item">Limited Updates</li>
+<li class="list-group-item">Up to 2 custom commands</li>
+<li class="list-group-item">10 day free hosting</li>
+<li class="list-group-item">Last in queue for support</li>
+
+
+  </ul>
+</div>
+
+<div style="width:100%; color: black; height:100%; cursor: pointer;" data-shoppy-product="WG7vGV9">
+  <p class="pti">Buy It Now</p>
+</div>
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+  </div>
+</section>
+
+
+<!-- Contact section -->
+<section id="contact" style="background-color: #8caeeb; padding: 30px 0; width:100vw; position:absolute;">
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Header starts -->
+  <div class="beg-black" id="myHeader" >
+
+  <ol class="main-nav">
+    <li><a class="active" href="#home">HOME</a></li>
+    <li>
+      <a href="#about">ABOUT</a>
+    </li>
+    <li>
+      <a href="#contact"
+        >CONTACT</a
+      >
+    </li>
+    <li>
+      <a href="#buy"
+        >BUY</a
+      >
+    </li>
+  </ol>
+  <span class="naem">Blue BotS - Cheap Discord Bots</span>
+</div>
+        </div>
+        </div>
+        </header>
+  </header>
 </body>
-</html>
