@@ -409,3 +409,14 @@ ul {
     transform: rotateX(90deg);
   }
 }
+@keyframes blueHighlight{
+  0%{
+    background-color: rgba(0,10,255,0);
+  }
+  50%{
+    background-color: rgba(0,10,255,0.5);
+  }
+  100%{
+    background-color: rgba(0,10,255,0);
+  }
+}
